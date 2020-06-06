@@ -1,17 +1,16 @@
-body{
-    
-}
 #box{
     padding: 5% 5%;
     font-family: Tahoma, Geneva, 'Verdana', sans-serif;
     margin: 0;
-    height: 250px;
+    max-height: inherit;
+
 }
 #left{
     position: relative;
     float: left;
     background-color: #ff9900;
     width: 50%;        
+    margin-bottom: 5%;
 }
 .left-container{
     margin-left: 10%;
@@ -52,15 +51,12 @@ body{
     float: right;
     background-color: rgb(62, 148, 206);
     width: 50%; 
-    height: 100%;       
+    height: 100%;   
+    margin-bottom: 5%;    
 }
 .right-container{
     margin-left: 10%;
     margin-right: 10%;
-}
-.right-bottom{
-    margin: 0 auto;
-    max-height: fit-content;
 }
 #btn{
     cursor: pointer;
@@ -72,6 +68,7 @@ body{
 .topnav {
     overflow: hidden;
     margin-top: 5%;
+    margin-bottom: 123%;
 }
 .topnav a {
     float: left;
@@ -92,7 +89,12 @@ body{
     color: white;
     border-radius: 10px;
 }
-@media only screen and (max-width: 1200px){
+.footer{
+    margin-top: 150px;
+    position: fixed;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
     .left-head{
         margin-bottom: 165px;
         color: #fff;
@@ -100,12 +102,13 @@ body{
     .topnav {
         overflow: hidden;
         margin-top: 5%;
+        margin-bottom: 295%;
     }
     .topnav a {
         float: left;
         color: #f2f2f2;
         text-align: center;
-        padding: 14px 10px;
+        padding: 14px 8px;
         text-decoration: none;
         font-size: 12px;
         border-radius: 10px;
