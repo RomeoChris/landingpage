@@ -56,7 +56,6 @@
 }
 .right-container{
     margin-left: 10%;
-    margin-right: 10%;
 }
 #btn{
     cursor: pointer;
@@ -74,7 +73,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 12px 7px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 12px;
     border-radius: 10px;
