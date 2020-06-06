@@ -25,7 +25,10 @@
     margin-bottom: 100px;
 }
 .left-body h2{
-    font-size: 32px;
+    font-size: 28px;
+}
+.left-body p{
+    font-size: 14px;
 }
 .left-bottom{
     margin-bottom: 100px;
@@ -41,7 +44,7 @@
 .left-bottom button{
     position: relative;
     padding: 3% 5% 3% 5%;
-    background-color: peru;
+    background-color: rgb(122, 70, 18);
     border: 0;
     margin-left: 2%;
     color: #fff;
@@ -62,7 +65,7 @@
 }
 #btn:hover{
     background-color: #fff;
-    color: peru;
+    color: rgb(122, 70, 18);
 }
 .topnav {
     overflow: hidden;
