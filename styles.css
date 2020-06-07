@@ -28,7 +28,7 @@
     font-size: 28px;
 }
 .left-body p{
-    font-size: 14px;
+    font-size: 10px;
 }
 .left-bottom{
     margin-bottom: 100px;
@@ -36,6 +36,7 @@
 }
 .left-bottom p{
     color: #fff;
+    font-size: 10px;
 }
 .left-bottom input{
     padding: 3% 5% 3% 5%;
